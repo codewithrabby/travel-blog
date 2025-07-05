@@ -1,9 +1,56 @@
-.h{
-    background-color: blueviolet;
+body{
+    background-color: rgb(15, 12, 12);
+    background-image: url(images/pexels-simon73-1323550.jpg);
+    background-image: width 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.p{
-    color: brown;
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    text-overflow: clip;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(15, 3, 26);
 }
-.q{
-    background-color: chartreuse;
+.quote{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-decoration-line: underline; 
+    font-style: initial;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+}
+.hello{
+    text-align: justify;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+}
+.cox, .syl, .tangua, .sundar{
+    padding: 5px;
+    margin: 25px;
+    border: 5px solid;
+    border-radius: 5px 20px;
+    width: 600px;
+    height: fit-content;
+    height: 400px;
+    overflow-y: scroll;
+    text-align: justify;
+}
+.dis{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(226, 43, 236);
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
 }
